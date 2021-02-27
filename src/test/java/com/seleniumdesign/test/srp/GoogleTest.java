@@ -22,9 +22,6 @@ public class GoogleTest extends BaseTest {
   @Test(dataProvider = "getData")
   public void googleWorkflow(String keyword, int index) {
 
-    //    String keyword = "selenium webdriver";
-    //    int index = 3;
-
     googleMainPage.goTo();
     Assert.assertTrue(googleMainPage.getSearchWidget().isDisplayed());
 
