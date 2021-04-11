@@ -18,7 +18,7 @@ public class AmazonProductDescriptionPage {
   public AmazonProductDescriptionPage(WebDriver driver) {
     this.driver = driver;
     this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-    PageFactory.initElements(driver, this);
+    //   PageFactory.initElements(driver, this);
   }
 
   public void buy() {

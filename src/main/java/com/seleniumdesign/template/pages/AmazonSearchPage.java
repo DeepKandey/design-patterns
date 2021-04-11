@@ -17,7 +17,7 @@ public class AmazonSearchPage {
 
   public AmazonSearchPage(WebDriver driver) {
     this.driver = driver;
-    PageFactory.initElements(driver, this);
+    //  PageFactory.initElements(driver, this);
   }
 
   public void goTo() {

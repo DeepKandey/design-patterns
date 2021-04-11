@@ -22,7 +22,7 @@ public class EBayShopping extends ShoppingTemplate {
   @FindBy(css = "div.s-item__info a")
   private WebElement item;
 
-  @FindBy(id = "prcIsum")
+  @FindBy(id = "prcIsum_bidPrice")
   private WebElement price;
 
   public EBayShopping(WebDriver driver, String product) {
